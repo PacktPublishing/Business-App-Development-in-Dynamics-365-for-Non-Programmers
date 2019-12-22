@@ -9,7 +9,7 @@ This solution is a managed solution. All the entities are named with the affix s
 
 Because this is a managed solution you will be able to easily uninstall it and the uninstallation process will remove all of the affected components and artifacts (entities, processes, etc).
 
-####Included in the solution:
+#### Included in the solution:
 
 * Apps
   * "Sales"
@@ -41,7 +41,7 @@ Because this is a managed solution you will be able to easily uninstall it and t
       * This is used to set a lookup for the Account Sample record on the Service Sample record. This is used as a "trick" to display the Service Sample records in the canvas app for the selected account. Within a canvas app you can only link one record set deep at the time of this writing. So the account sample record is related to the work order sample records and the work order sample records for the account sample are related to the service sample records. Because of this limitation service sample records need to be related to the account sample record and this workflow executes on the busines
   * Work Order Sample
 
-####Not Included:
+#### Not Included:
 * Weather integration
   * The weather integration used in the related canvas app videos uses a personal developer account to access the 3rd party weather API. for this reason it is not included in the samples
 * Flow / Power Automate
